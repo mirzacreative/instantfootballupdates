@@ -51,3 +51,25 @@ input::placeholder{color:#7f9188!important;}
   body{padding-bottom:62px;}
 }
 @media(max-width:480px){.brand small{display:none}.hero-board{display:none}.ticker{display:none}.stat b{font-size:1.8rem!important}.card,.score-card{border-radius:18px!important}.bottom-nav{display:grid!important;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:220;padding:8px 6px}.bottom-nav a{font-size:.78rem;padding:8px 4px;text-align:center;border-radius:12px}.bottom-nav a:hover{background:rgba(0,230,118,.18)}}
+
+/* Extra mobile reliability patch */
+html,body{max-width:100%;overflow-x:hidden;background:#050505!important;}
+a,button,.btn,.card{touch-action:manipulation;}
+@media (max-width:760px){
+  .nav-inner{gap:10px;}
+  .brand span{font-size:13px;line-height:1.15;}
+  .brand small{font-size:10px;}
+  .hamb{display:inline-flex;align-items:center;justify-content:center;min-height:42px;z-index:1002;}
+  .menu{position:fixed;left:14px;right:14px;top:74px;display:none;flex-direction:column;background:#080808;border:1px solid rgba(255,255,255,.16);border-radius:18px;padding:14px;box-shadow:0 25px 80px rgba(0,0,0,.55);z-index:1001;}
+  .menu.open{display:flex;}
+  .menu a{width:100%;padding:13px 14px;border-radius:12px;}
+  .hero{padding-top:46px;}
+  .actions{display:grid;grid-template-columns:1fr;gap:10px;width:100%;}
+  .btn{width:100%;justify-content:center;min-height:46px;}
+  .grid,.grid-2,.grid-3{grid-template-columns:1fr!important;}
+  .bottom-nav{display:grid;grid-template-columns:repeat(4,1fr);}
+  main{padding-bottom:78px;}
+}
+
+.toolbar{margin-bottom:22px;display:flex;gap:12px;flex-wrap:wrap}.toolbar input{width:min(420px,100%);padding:14px 16px;border-radius:16px;border:1px solid rgba(255,255,255,.14);background:#080b12;color:#fff;outline:none}.team-detail{margin-bottom:22px}.mini-player{padding:16px;border:1px solid rgba(255,255,255,.12);border-radius:18px;background:rgba(255,255,255,.04)}.mini-player b{display:block;font-size:1.05rem}.mini-player span{display:inline-block;margin:8px 0;color:#ffd36a}.stack{display:block}.team-card .actions{margin-top:16px}
+@media(max-width:720px){.toolbar input{width:100%}.mini-player{padding:14px}.team-detail h2{font-size:1.55rem}.grid.grid-2{grid-template-columns:1fr}.actions .btn{width:100%;justify-content:center}}
