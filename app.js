@@ -129,3 +129,38 @@ function filterTeamCards(q){
     card.style.display=card.innerText.toLowerCase().includes(q)?'':'none';
   });
 }
+
+// First click opens the ad; after the visitor comes back, the same item works normally.
+(function(){
+  const smartlinkUrl='https://tolerateshyrenamed.com/wcdubmv7p?key=d154ac7cd6987b85b5ce83c8c8685e75';
+  const memoryPrefix='ifu_smartlink_seen:';
+  function targetKey(el){
+    const href=el.getAttribute('href')||'';
+    const onclick=el.getAttribute('onclick')||'';
+    const text=(el.textContent||el.getAttribute('aria-label')||el.id||el.className||'click').trim().replace(/\s+/g,' ').slice(0,90);
+    return memoryPrefix+location.pathname+'|'+el.tagName+'|'+href+'|'+onclick+'|'+text;
+  }
+  function shouldSkip(el){
+    if(!el) return true;
+    if(el.closest('[data-sponsored-ad], .ad-direct, input, textarea, select, label')) return true;
+    const href=el.getAttribute('href')||'';
+    if(href.startsWith('mailto:')||href.startsWith('tel:')||href.startsWith('javascript:')) return true;
+    return false;
+  }
+  document.addEventListener('click',function(e){
+    if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey) return;
+    const el=e.target.closest('a,button,[role="button"],summary');
+    if(shouldSkip(el)) return;
+    const key=targetKey(el);
+    try{
+      if(localStorage.getItem(key)) return;
+      localStorage.setItem(key,'1');
+    }catch(err){
+      if(el.dataset.smartlinkSeen) return;
+      el.dataset.smartlinkSeen='1';
+    }
+    e.preventDefault();
+    e.stopPropagation();
+    window.location.href=smartlinkUrl;
+  },true);
+})();
