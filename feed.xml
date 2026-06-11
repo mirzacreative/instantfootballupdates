@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Instant Football Updates</title>
+    <link>https://mirzacreative.github.io/instantfootballupdates/</link>
+    <description>World Cup 2026 football news, match updates, players and team analysis.</description>
+    <language>en</language>
+    <item>
+      <title>World Cup 2026 Football Hub</title>
+      <link>https://mirzacreative.github.io/instantfootballupdates/world-cup-2026.html</link>
+      <description>Follow World Cup 2026 topics, predictions, teams and player analysis.</description>
+      <pubDate>Thu, 11 Jun 2026 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Golden Boot Predictions</title>
+      <link>https://mirzacreative.github.io/instantfootballupdates/golden-boot.html</link>
+      <description>Top goal scorer watchlist and tournament prediction coverage.</description>
+      <pubDate>Thu, 11 Jun 2026 09:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

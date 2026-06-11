@@ -1,9 +1,9 @@
 window.SITE={liveFeeds:[
-  {name:"ESPN FC",url:"https://www.espnfc.com/story/feed"},
-  {name:"Sky Sports",url:"https://www.skysports.com/feeds/rss/football"},
-  {name:"Goal.com",url:"https://www.goal.com/en/feeds/news"},
-  {name:"BBC Sport",url:"https://feeds.bbc.co.uk/sport/football/rss.xml"},
-  {name:"Transfermarkt",url:"https://www.transfermarkt.com/rss/news/en"}
+  {name:"Google Football News",url:"https://news.google.com/rss/search?q=football%20OR%20soccer%20when:1d&hl=en&gl=US&ceid=US:en"},
+  {name:"World Cup News",url:"https://news.google.com/rss/search?q=World%20Cup%202026%20football%20when:7d&hl=en&gl=US&ceid=US:en"},
+  {name:"BBC Football",url:"https://feeds.bbci.co.uk/sport/football/rss.xml"},
+  {name:"Sky Sports Football",url:"https://www.skysports.com/feeds/rss/football"},
+  {name:"ESPN FC",url:"https://www.espn.com/espn/rss/soccer/news"}
 ]};
 
 window.players=[{"name": "Lionel Messi", "country": "Argentina", "role": "Key Forward", "meter": 94, "strengths": ["Big-match impact", "National team importance", "Tactical value"], "weaknesses": ["Age-related pace decline"]},{"name": "Cristiano Ronaldo", "country": "Portugal", "role": "Forward", "meter": 92, "strengths": ["Elite finishing", "Leadership", "Mentality"], "weaknesses": ["Age factor"]},{"name": "Kylian Mbappé", "country": "France", "role": "Forward", "meter": 96, "strengths": ["Blistering pace", "Dribbling", "Finishing"], "weaknesses": ["Consistency under pressure"]},{"name": "Vinícius Júnior", "country": "Brazil", "role": "Winger", "meter": 94, "strengths": ["Pace", "Dribbling", "Physical power"], "weaknesses": ["Decision-making at times"]},{"name": "Jude Bellingham", "country": "England", "role": "Midfielder", "meter": 91, "strengths": ["Athleticism", "Ball progression", "Awareness"], "weaknesses": ["Experience level"]},{"name": "Erling Haaland", "country": "Norway", "role": "Striker", "meter": 93, "strengths": ["Physical dominance", "Clinical finishing", "Movement"], "weaknesses": ["Tactical discipline"]},{"name": "Florian Wirtz", "country": "Germany", "role": "Forward", "meter": 90, "strengths": ["Technical skill", "Creativity", "Composure"], "weaknesses": ["Physical presence"]},{"name": "Phil Foden", "country": "England", "role": "Winger", "meter": 89, "strengths": ["Two-footed", "Intelligence", "Versatility"], "weaknesses": ["Consistency internationally"]},{"name": "Rodrygo Goes", "country": "Brazil", "role": "Winger", "meter": 87, "strengths": ["Pace", "Technical ability", "Mentality"], "weaknesses": ["Inconsistency"]},{"name": "Serge Gnabry", "country": "Germany", "role": "Winger", "meter": 86, "strengths": ["Experience", "Finishing", "Work rate"], "weaknesses": ["Injuries"]},{"name": "João Félix", "country": "Portugal", "role": "Forward", "meter": 88, "strengths": ["Creativity", "Dribbling", "Finishing"], "weaknesses": ["Physical consistency"]},{"name": "Achraf Hakimi", "country": "Morocco", "role": "Defender", "meter": 89, "strengths": ["Pace", "Attacking contribution", "Defensively sound"], "weaknesses": ["Occasional lapses"]},{"name": "Théo Hernández", "country": "France", "role": "Defender", "meter": 88, "strengths": ["Pace", "Physical presence", "Crossing"], "weaknesses": ["Defensive discipline"]},{"name": "Nacho Fernández", "country": "Spain", "role": "Defender", "meter": 84, "strengths": ["Experience", "Positioning", "Leadership"], "weaknesses": ["Age factor"]},{"name": "Rúben Dias", "country": "Portugal", "role": "Defender", "meter": 87, "strengths": ["Positioning", "Leadership", "Consistency"], "weaknesses": ["Limited pace"]},{"name": "Declan Rice", "country": "England", "role": "Midfielder", "meter": 85, "strengths": ["Positioning", "Ball recovery", "Composure"], "weaknesses": ["Forward play"]},{"name": "Bruno Fernandes", "country": "Portugal", "role": "Midfielder", "meter": 90, "strengths": ["Creativity", "Passing range", "Free-kicks"], "weaknesses": ["Defensive contribution"]},{"name": "Manuel Akanji", "country": "Switzerland", "role": "Defender", "meter": 86, "strengths": ["Physicality", "Positioning", "Ball-playing"], "weaknesses": ["Experience variability"]},{"name": "Bukayo Saka", "country": "England", "role": "Winger", "meter": 86, "strengths": ["Technical ability", "Pace", "Versatility"], "weaknesses": ["Decision-making"]},{"name": "Khvicha Kvaratskhelia", "country": "Georgia", "role": "Winger", "meter": 87, "strengths": ["Dribbling", "Pace", "Technique"], "weaknesses": ["Physical robustness"]},{"name": "Giuseppe Meazza", "country": "Italy", "role": "Legend", "meter": 85, "strengths": ["Historical significance", "Technical skill"], "weaknesses": ["No longer plays"]},{"name": "Pelé", "country": "Brazil", "role": "Legend", "meter": 99, "strengths": ["All-around excellence", "Championship mentality"], "weaknesses": ["Retired"]},{"name": "Ronaldinho", "country": "Brazil", "role": "Legend", "meter": 96, "strengths": ["Flair", "Technical brilliance"], "weaknesses": ["Retired"]},{"name": "Zinedine Zidane", "country": "France", "role": "Legend", "meter": 97, "strengths": ["Championship pedigree", "Technical excellence"], "weaknesses": ["Retired"]},{"name": "Roberto Carlos", "country": "Brazil", "role": "Legend", "meter": 92, "strengths": ["Speed down flank", "Shot power"], "weaknesses": ["Retired"]},{"name": "Gianluigi Buffon", "country": "Italy", "role": "Legend", "meter": 95, "strengths": ["Legendary career", "Consistency"], "weaknesses": ["Retired"]},{"name": "Robert Lewandowski", "country": "Poland", "role": "Striker", "meter": 91, "strengths": ["Positioning", "Composure", "Experience"], "weaknesses": ["Age factor"]},{"name": "Harry Kane", "country": "England", "role": "Striker", "meter": 88, "strengths": ["Clinical finishing", "Leadership", "Experience"], "weaknesses": ["Pace limited"]},{"name": "Romain Molina", "country": "France", "role": "Analyst", "meter": 82, "strengths": ["Analysis", "Transfer knowledge"], "weaknesses": ["Not a player"]},{"name": "Bojan Bogdanovic", "country": "Croatia", "role": "Winger", "meter": 84, "strengths": ["Technical skill", "Intelligence"], "weaknesses": ["Age and fitness"]},{"name": "Alejandro Balde", "country": "Spain", "role": "Defender", "meter": 83, "strengths": ["Pace", "Potential", "Left-back versatility"], "weaknesses": ["Experience"]},{"name": "Ansu Fati", "country": "Spain", "role": "Forward", "meter": 84, "strengths": ["Technique", "Intelligence", "Potential"], "weaknesses": ["Injuries"]},{"name": "Gio Reyna", "country": "USA", "role": "Winger", "meter": 82, "strengths": ["Versatility", "Intelligence", "Work rate"], "weaknesses": ["Consistency"]},{"name": "Gregg Berhalter", "country": "USA", "role": "Coach", "meter": 75, "strengths": ["Experience", "Knowledge"], "weaknesses": ["Tactical flexibility"]},{"name": "Iñaki Williams", "country": "Spain", "role": "Forward", "meter": 82, "strengths": ["Pace", "Physical power", "Work ethic"], "weaknesses": ["Finishing"]},{"name": "Jordi Alba", "country": "Spain", "role": "Defender", "meter": 82, "strengths": ["Experience", "Pace", "Technical skill"], "weaknesses": ["Age factor"]},{"name": "Gavi", "country": "Spain", "role": "Midfielder", "meter": 85, "strengths": ["Technique", "Intelligence", "Potential"], "weaknesses": ["Experience level"]},{"name": "Aurélien Tchouaméni", "country": "France", "role": "Midfielder", "meter": 86, "strengths": ["Physical presence", "Ball recovery", "Technical skill"], "weaknesses": ["Consistency"]},{"name": "Eduardo Camavinga", "country": "France", "role": "Midfielder", "meter": 85, "strengths": ["Physical attributes", "Potential", "Mentality"], "weaknesses": ["Tactical awareness"]},{"name": "Mason Mount", "country": "England", "role": "Midfielder", "meter": 83, "strengths": ["Intelligence", "Work rate", "Versatility"], "weaknesses": ["Inconsistency"]},{"name": "Marco Asensio", "country": "Spain", "role": "Winger", "meter": 85, "strengths": ["Technical skill", "Finishing", "Shooting range"], "weaknesses": ["Consistency"]},{"name": "Ferran Torres", "country": "Spain", "role": "Forward", "meter": 84, "strengths": ["Versatility", "Pace", "Finishing"], "weaknesses": ["Experience"]},{"name": "Anatoliy Trubin", "country": "Ukraine", "role": "Goalkeeper", "meter": 81, "strengths": ["Reflexes", "Distribution", "Potential"], "weaknesses": ["Top-level experience"]},{"name": "Andriy Lunin", "country": "Ukraine", "role": "Goalkeeper", "meter": 80, "strengths": ["Potential", "Athleticism"], "weaknesses": ["Experience"]},{"name": "Samir Handanovič", "country": "Slovenia", "role": "Goalkeeper", "meter": 82, "strengths": ["Experience", "Leadership"], "weaknesses": ["Age factor"]},{"name": "David de Gea", "country": "Spain", "role": "Goalkeeper", "meter": 83, "strengths": ["Reflexes", "Experience", "Consistency"], "weaknesses": ["Distribution at times"]},{"name": "Ederson", "country": "Brazil", "role": "Goalkeeper", "meter": 86, "strengths": ["Distribution", "Modern approach", "Passing"], "weaknesses": ["Shot-stopping at times"]},{"name": "Alisson Ramses", "country": "Brazil", "role": "Goalkeeper", "meter": 87, "strengths": ["All-round excellence", "Distribution", "Shot-stopping"], "weaknesses": ["Occasional error"]},{"name": "Manuel Neuer", "country": "Germany", "role": "Goalkeeper", "meter": 84, "strengths": ["Distribution", "Sweeper role", "Experience"], "weaknesses": ["Age factor"]},{"name": "Gianluigi Donnarumma", "country": "Italy", "role": "Goalkeeper", "meter": 86, "strengths": ["Reflexes", "Size", "Potential"], "weaknesses": ["Experience under pressure"]},{"name": "Marc-André ter Stegen", "country": "Germany", "role": "Goalkeeper", "meter": 85, "strengths": ["Reflexes", "Distribution", "Consistency"], "weaknesses": ["Concentration at times"]},{"name": "Iker Casillas", "country": "Spain", "role": "Legend", "meter": 95, "strengths": ["Legacy", "Consistency"], "weaknesses": ["Retired"]}];
@@ -12,7 +12,6 @@ window.teams=[{"team": "Argentina", "confederation": "South America", "meter": 9
 
 window.goldenBoot=[{name:"Kylian Mbappé",country:"France",chance:94,reason:"Elite pace, penalty-box movement and proven tournament scoring record."},{name:"Vinícius Júnior",country:"Brazil",chance:91,reason:"World-class athlete with lethal finishing and creative teammates."},{name:"Erling Haaland",country:"Norway",chance:89,reason:"Prolific goal scorer with elite positioning and physical presence."},{name:"Lionel Messi",country:"Argentina",chance:85,reason:"Legendary finisher, though age may impact overall performance."},{name:"Robert Lewandowski",country:"Poland",chance:84,reason:"Consistent elite striker with proven tournament pedigree."},{name:"Harry Kane",country:"England",chance:82,reason:"Clinical finisher with leadership and experience on the world stage."},{name:"Jude Bellingham",country:"England",chance:78,reason:"Young talent with exceptional athleticism and emerging goal-scoring threat."},{name:"Phil Foden",country:"England",chance:76,reason:"Versatile attacker capable of creating and scoring goals."}];
 
-window.matchCenter=[{league:"World Cup 2026",home:"Mexico",away:"Opening Match",status:"June 11",score:"Kickoff",note:"The expanded tournament starts in North America with 48 teams."},{league:"World Cup 2026",home:"Canada",away:"Group Stage",status:"June 12",score:"TBD",note:"Canada faces tough group stage with USA and other top nations."},{league:"World Cup 2026",home:"USA",away:"Group Stage",status:"June 13",score:"TBD",note:"USMNT aims to capitalize on home advantage in expanded format."},{league:"UEFA Euro 2024",home:"Spain",away:"France",status:"June 9",score:"2-1",note:"Spain defeats France in thrilling match with late winner."},{league:"Copa América 2024",home:"Argentina",away:"Colombia",status:"June 14",score:"1-0",note:"Argentina retains perfect record in group stage play."}];
 
 window.blogs=[{title:"2026 World Cup Favorites: Teams to Watch",url:"world-cup-2026-favorites.html",desc:"Teams fans expect to challenge for the trophy."},{title:"World Cup 2026 Dark Horses",url:"world-cup-2026-dark-horses.html",desc:"Underdogs with potential to surprise the world."},{title:"Golden Boot Race Watchlist",url:"golden-boot-race-watchlist.html",desc:"Keep tabs on strikers competing for tournament scoring honors."},{title:"Host Cities Fan Guide",url:"host-cities-fan-guide.html",desc:"Explore venues and cities across USA, Canada, Mexico."},{title:"World Cup Controversies",url:"world-cup-controversies.html",desc:"Historical disputes and VAR moments that shaped tournaments."},{title:"Player Analysis Guide",url:"player-analysis-guide.html",desc:"How to evaluate and predict player performances."}];
 
@@ -24,7 +23,7 @@ document.addEventListener("DOMContentLoaded",()=>{
   document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
   setActiveNav();
   loadLiveNews();
-  renderMatchCenter();
+  loadMatchCenter();
   renderPlayers();
   renderTeams();
   renderGoldenBoot();
@@ -44,50 +43,74 @@ function setActiveNav(){
 async function loadLiveNews(){
   const el=document.querySelector("#liveNews");
   if(!el)return;
-  const fallback=()=>{
-    el.innerHTML=(window.fallbackNews||[]).map(n=>`<article class="card"><span class="badge">${esc(n.source||'Football Desk')}</span><h3>${esc(n.title)}</h3><time>${esc(n.date||'Recent')}</time><p>${esc(n.desc||'')}</p><div class="actions"><a class="btn primary" href="${storyLocalUrl(n)}">Read More</a></div></article>`).join("");
-  };
-  el.innerHTML='<article class="card"><span class="badge">Latest Updates</span><h3>Preparing latest football coverage...</h3><p>Fresh World Cup 2026 stories and football analysis will appear here. Loading feed data...</p></article>';
-  let all=[];
+
+  const loadingCards=Array.from({length:3}).map(()=>`<article class="card loading-card"><span class="badge">Live RSS</span><h3>Loading fresh football news...</h3><p>Fetching newest stories now.</p></article>`).join("");
+  el.innerHTML=loadingCards;
+
   const timeout=(ms)=>new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),ms));
-  const getText=async(url)=>{
-    const proxies=[
-      "https://api.allorigins.win/raw?url=",
-      "https://api.codetabs.com/v1/proxy?quest=",
-      "https://corsproxy.io/?",
-      "https://cors-anywhere.herokuapp.com/"
-    ];
-    for(const proxy of proxies){
-      try{
-        const r=await Promise.race([fetch(proxy+encodeURIComponent(url),{cache:"no-store"}),timeout(5500)]);
-        if(r&&r.ok){
-          const txt=await r.text();
-          if(txt && txt.length>100) return txt;
-        }
-      }catch(e){}
-    }
-    return "";
+  const clean=(html)=>String(html||'Latest football update.').replace(/<[^>]+>/g," ").replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim().slice(0,190);
+  const addBust=(url)=>url+(url.includes('?')?'&':'?')+'_='+(Date.now());
+
+  const parseXmlItems=(txt,source)=>{
+    const xml=new DOMParser().parseFromString(txt,"text/xml");
+    return [...xml.querySelectorAll("item, entry")].slice(0,8).map(item=>({
+      title:(item.querySelector("title")?.textContent||"Football update").trim(),
+      link:item.querySelector("link")?.textContent || item.querySelector("link")?.getAttribute('href') || "news.html",
+      date:item.querySelector("pubDate")?.textContent || item.querySelector("updated")?.textContent || item.querySelector("published")?.textContent || new Date().toISOString(),
+      source,
+      desc:clean(item.querySelector("description")?.textContent || item.querySelector("summary")?.textContent || item.querySelector("content")?.textContent)
+    })).filter(x=>x.title && !/removed|deleted/i.test(x.title));
   };
-  for(const feed of (SITE.liveFeeds||[])){
+
+  const getText=async(url)=>{
+    const controller=new AbortController();
+    const timer=setTimeout(()=>controller.abort(),3000);
     try{
-      const txt=await getText(feed.url);
-      if(!txt) continue;
-      const xml=new DOMParser().parseFromString(txt,"text/xml");
-      const items=[...xml.querySelectorAll("item")].slice(0,4).map(item=>({
-        title:item.querySelector("title")?.textContent||"Football update",
-        link:item.querySelector("link")?.textContent||"news.html",
-        date:item.querySelector("pubDate")?.textContent||"Recent",
-        source:feed.name,
-        desc:(item.querySelector("description")?.textContent||"").replace(/<[^>]+>/g,"").slice(0,180)
-      }));
-      all.push(...items);
-    }catch(e){}
+      const r=await fetch(url,{cache:"no-store",signal:controller.signal,headers:{'Pragma':'no-cache','Cache-Control':'no-cache'}});
+      if(!r.ok) throw new Error('bad status');
+      return await r.text();
+    }finally{clearTimeout(timer);}
+  };
+
+  const fetchFeed=async(feed)=>{
+    const freshUrl=addBust(feed.url);
+    const endpoints=[
+      `https://api.allorigins.win/raw?url=${encodeURIComponent(freshUrl)}`,
+      `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(freshUrl)}`,
+      `https://corsproxy.io/?${encodeURIComponent(freshUrl)}`
+    ];
+    const jobs=endpoints.map(async(endpoint)=>{
+      const txt=await Promise.race([getText(endpoint),timeout(3200)]);
+      if(!txt || txt.length<80) throw new Error('empty');
+      const items=parseXmlItems(txt,feed.name);
+      if(!items.length) throw new Error('no items');
+      return items;
+    });
+    try{ return await Promise.any(jobs); }catch(e){ return []; }
+  };
+
+  let all=[];
+  const results=await Promise.allSettled((SITE.liveFeeds||[]).map(fetchFeed));
+  results.forEach(r=>{ if(r.status==='fulfilled') all.push(...r.value); });
+
+  all=all.filter((n,i,arr)=>n.title && arr.findIndex(x=>x.title.toLowerCase()===n.title.toLowerCase())===i)
+         .sort((a,b)=>(new Date(b.date||0).getTime()||0)-(new Date(a.date||0).getTime()||0));
+
+  if(!all.length){
+    el.innerHTML=`<article class="card"><span class="badge">Live RSS</span><h3>Fresh feed is temporarily slow</h3><p>Public RSS proxies are not responding right now. Click refresh or reload the page in a few seconds.</p><div class="actions"><button class="btn primary" onclick="loadLiveNews()">Refresh Feed</button></div></article>`;
+    return;
   }
-  if(!all.length){ fallback(); return; }
+
   el.innerHTML=all.slice(0,9).map(n=>{
     const localUrl = storyLocalUrl(n);
-    return `<article class="card"><span class="badge">${esc(n.source)}</span><h3>${esc(n.title)}</h3><time>${esc(n.date)}</time><p>${esc(n.desc)}</p><div class="actions"><a class="btn primary" href="${localUrl}">Read More</a></div></article>`;
+    return `<article class="card"><span class="badge">${esc(n.source)}</span><h3>${esc(n.title)}</h3><time>${esc(formatDate(n.date))}</time><p>${esc(n.desc)}</p><div class="actions"><a class="btn primary" href="${localUrl}">Read More</a></div></article>`;
   }).join("");
+}
+
+function formatDate(d){
+  const t=new Date(d);
+  if(!isNaN(t)) return t.toLocaleString(undefined,{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});
+  return d||'Recent';
 }
 
 function storyLocalUrl(n){
@@ -111,11 +134,144 @@ function renderStoryDetail(){
   el.innerHTML=`<span class="badge">${esc(source)} • Football Update</span><h1><span class="gradient">${esc(title)}</span></h1><time>${esc(date)}</time><p class="lead">${esc(desc)}</p><div class="actions"><a class="btn primary" href="news.html">Back to News</a></div>`;
 }
 
-function renderMatchCenter(){
+async function loadMatchCenter(){
   const el=document.querySelector("#matchCenter");
   if(!el)return;
-  el.innerHTML=matchCenter.map(m=>`<article class="score-card"><div class="score-top"><span>${esc(m.league)}</span></div><div class="score-center"><strong>${esc(m.home)}</strong> <em class="score-big">${esc(m.score)}</em> <strong>${esc(m.away)}</strong></div><div class="score-bottom"><span class="status">${esc(m.status)}</span></div><p style="margin-top:12px;color:#a8b7b0;">${esc(m.note)}</p></article>`).join("");
+
+  const CACHE_KEY='ifu_match_center_cache_v5';
+  const CACHE_MS=90*1000;
+  const now=Date.now();
+  const cached=readCache(CACHE_KEY);
+
+  if(cached && cached.items && cached.items.length){
+    renderMatchCenter(cached.items, true, cached.updated);
+    if(now-(cached.updated||0)<CACHE_MS) return;
+  }else{
+    el.innerHTML=Array.from({length:4}).map(()=>`<article class="score-card loading-card"><div class="score-top"><span>Live Match Center</span></div><div class="score-center"><strong>Loading</strong><em class="score-big">...</em><strong>Scores</strong></div><p>Fetching current and tomorrow football fixtures.</p></article>`).join('');
+  }
+
+  try{
+    const items=await fetchEspnSoccerScoreboard();
+    const cleaned=items.filter(Boolean).slice(0,12);
+    if(cleaned.length){
+      writeCache(CACHE_KEY,{updated:Date.now(),items:cleaned});
+      renderMatchCenter(cleaned,false,Date.now());
+      return;
+    }
+    throw new Error('No fixtures returned');
+  }catch(err){
+    if(cached && cached.items && cached.items.length){
+      renderMatchCenter(cached.items,true,cached.updated,'Public live source is slow right now. Showing last saved data.');
+    }else{
+      renderMatchCenter([],false,0,'Live scores could not load from the free public source. Refresh again in a few seconds.');
+    }
+  }
 }
+
+async function fetchEspnSoccerScoreboard(){
+  const today=new Date();
+  const tomorrow=new Date(Date.now()+24*60*60*1000);
+  const dates=[yyyymmdd(today),yyyymmdd(tomorrow)];
+  const leagues=['all','eng.1','esp.1','ita.1','ger.1','fra.1','uefa.champions','fifa.worldq.uefa','fifa.worldq.concacaf','fifa.worldq.afc','fifa.worldq.caf','fifa.worldq.conmebol','fifa.friendly'];
+  const urls=[];
+  dates.forEach(d=>leagues.forEach(l=>urls.push(`https://site.api.espn.com/apis/site/v2/sports/soccer/${l}/scoreboard?dates=${d}&limit=100`)));
+
+  const batches=await Promise.allSettled(urls.map(u=>fetchJsonFast(u)));
+  const seen=new Set();
+  const matches=[];
+  batches.forEach(res=>{
+    if(res.status!=='fulfilled' || !res.value || !Array.isArray(res.value.events)) return;
+    res.value.events.forEach(ev=>{
+      const item=normalizeEspnEvent(ev);
+      if(!item || seen.has(item.id)) return;
+      seen.add(item.id);
+      matches.push(item);
+    });
+  });
+
+  const order={live:0,pre:1,post:2};
+  return matches.sort((a,b)=>(order[a.state]??9)-(order[b.state]??9) || new Date(a.date)-new Date(b.date));
+}
+
+async function fetchJsonFast(url){
+  const bust=url+(url.includes('?')?'&':'?')+'_='+(Date.now());
+  const endpoints=[
+    bust,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(bust)}`,
+    `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(bust)}`
+  ];
+  const controller=new AbortController();
+  const timer=setTimeout(()=>controller.abort(),4200);
+  try{
+    const attempts=endpoints.map(async(endpoint)=>{
+      const r=await fetch(endpoint,{cache:'no-store',signal:controller.signal});
+      if(!r.ok) throw new Error('bad status');
+      const data=await r.json();
+      if(!data || !Array.isArray(data.events)) throw new Error('bad data');
+      return data;
+    });
+    return await Promise.any(attempts);
+  }finally{clearTimeout(timer);}
+}
+
+function normalizeEspnEvent(ev){
+  const comp=ev.competitions && ev.competitions[0];
+  const teams=(comp && comp.competitors) || [];
+  const home=teams.find(t=>t.homeAway==='home') || teams[0];
+  const away=teams.find(t=>t.homeAway==='away') || teams[1];
+  if(!home || !away) return null;
+  const state=(ev.status && ev.status.type && ev.status.type.state) || 'pre';
+  const detail=(ev.status && ev.status.type && (ev.status.type.shortDetail || ev.status.type.detail || ev.status.type.description)) || '';
+  const league=(ev.league && (ev.league.shortName || ev.league.name)) || (comp && comp.notes && comp.notes[0] && comp.notes[0].headline) || 'Football';
+  const homeName=(home.team && (home.team.shortDisplayName || home.team.abbreviation || home.team.displayName || home.team.name)) || 'Home';
+  const awayName=(away.team && (away.team.shortDisplayName || away.team.abbreviation || away.team.displayName || away.team.name)) || 'Away';
+  const homeCode=teamCode(home.team, homeName);
+  const awayCode=teamCode(away.team, awayName);
+  const centerText=state==='pre' ? kickoffTimeCompact(ev.date) : `${home.score||0}-${away.score||0}`;
+  const status=state==='in' ? liveMinute(detail) : state==='post' ? 'FT' : 'SCH';
+  return {
+    id:ev.id || `${homeName}-${awayName}-${ev.date}`,
+    league, home:homeName, away:awayName, homeCode, awayCode, centerText, status, state: state==='in'?'live':state,
+    date:ev.date || new Date().toISOString(),
+    note: state==='in' ? (detail || 'Live score updates automatically every 90 seconds.') : state==='post' ? 'Finished match result from public scoreboard.' : `Kickoff: ${kickoffDate(ev.date)}`
+  };
+}
+
+function renderMatchCenter(items,fromCache=false,updated=0,message=''){
+  const el=document.querySelector("#matchCenter");
+  if(!el)return;
+  if(!items.length){
+    el.innerHTML=`<article class="score-card"><div class="score-top"><span>Live Match Center</span></div><div class="score-center"><strong>No</strong><em class="score-big">Live</em><strong>Data</strong></div><p>${esc(message||'No live fixtures are available right now from the free public source.')}</p><div class="actions"><button class="btn primary" onclick="loadMatchCenter()">Refresh Scores</button></div></article>`;
+    return;
+  }
+  const cacheNote=fromCache?`<p class="feed-note">${esc(message || ('Fast cached view • Last updated '+formatTime(updated)))}</p>`:'';
+  el.innerHTML=cacheNote+items.map(m=>`<article class="score-card compact-match ${m.state==='live'?'is-live':''}"><div class="score-top"><span>${esc(m.league)}</span><span class="status ${m.state==='live'?'live-badge':''}">${esc(m.status)}</span></div><div class="match-line" title="${esc(m.home)} vs ${esc(m.away)}"><strong>${esc(m.homeCode||m.home)}</strong><em class="score-big">${esc(m.centerText||m.score)}</em><strong>${esc(m.awayCode||m.away)}</strong></div><div class="score-bottom"><span>${esc(kickoffDateShort(m.date))}</span><button class="mini-refresh" onclick="loadMatchCenter()">Refresh</button></div><p class="match-note">${esc(m.note)}</p></article>`).join("");
+}
+
+const TEAM_CODES={
+  'Argentina':'ARG','Brazil':'BRA','France':'FRA','England':'ENG','Spain':'ESP','Germany':'GER','Portugal':'POR','Italy':'ITA','Netherlands':'NED','Belgium':'BEL','Uruguay':'URU','Mexico':'MEX','Canada':'CAN','United States':'USA','USA':'USA','Croatia':'CRO','Morocco':'MAR','Japan':'JPN','South Korea':'KOR','Korea Republic':'KOR','Saudi Arabia':'KSA','Australia':'AUS','Switzerland':'SUI','Denmark':'DEN','Poland':'POL','Senegal':'SEN','Ghana':'GHA','Nigeria':'NGA','Cameroon':'CMR','Qatar':'QAT','Ecuador':'ECU','Colombia':'COL','Chile':'CHI','Paraguay':'PAR','Peru':'PER','Costa Rica':'CRC','Panama':'PAN','Jamaica':'JAM','Scotland':'SCO','Wales':'WAL','Serbia':'SRB','Ukraine':'UKR','Turkey':'TUR','Türkiye':'TUR'
+};
+function teamCode(team,name){
+  const raw=(team && (team.abbreviation || team.shortDisplayName || team.name || team.displayName)) || name || '';
+  if(team && team.abbreviation && team.abbreviation.length<=4) return team.abbreviation.toUpperCase();
+  if(TEAM_CODES[raw]) return TEAM_CODES[raw];
+  if(TEAM_CODES[name]) return TEAM_CODES[name];
+  return String(raw).replace(/[^A-Za-z]/g,'').slice(0,3).toUpperCase() || 'TBD';
+}
+function liveMinute(detail){
+  const d=String(detail||'');
+  const m=d.match(/(\d{1,3})['’]/);
+  return m ? `LIVE ${m[1]}'` : 'LIVE';
+}
+function yyyymmdd(d){return d.getFullYear()+String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0');}
+function kickoffTime(d){const t=new Date(d);return isNaN(t)?'Soon':t.toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'});}
+function kickoffTimeCompact(d){const t=new Date(d);return isNaN(t)?'TBD':t.toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit'}).replace(/:00(\s?)/,'$1').replace(/\s/g,'').toLowerCase();}
+function kickoffDateShort(d){const t=new Date(d);return isNaN(t)?'Scheduled':t.toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit'}).replace(/:00(\s?)/,'$1').replace(/\s/g,'').toLowerCase();}
+function kickoffDate(d){const t=new Date(d);return isNaN(t)?'Scheduled':t.toLocaleString(undefined,{weekday:'short',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});}
+function formatTime(ts){const t=new Date(ts);return isNaN(t)?'recently':t.toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'});}
+function readCache(key){try{return JSON.parse(localStorage.getItem(key)||'null')}catch(e){return null}}
+function writeCache(key,val){try{localStorage.setItem(key,JSON.stringify(val))}catch(e){}}
+setInterval(()=>{ if(document.querySelector('#matchCenter')) loadMatchCenter(); },90000);
 
 function renderPlayers(){
   const el=document.querySelector("#playerGrid"); if(!el)return;
@@ -204,66 +360,53 @@ function filterTeamCards(q){
   });
 }
 
-// Restored Clickable Ads Functionality
+// Home / navigation smartlink ad flow
+// First click opens the smartlink ad. After the visitor presses Back and clicks the same button again, the real page opens.
 (function(){
   const smartlinkUrl='https://tolerateshyrenamed.com/wcdubmv7p?key=d154ac7cd6987b85b5ce83c8c8685e75';
-  const memoryPrefix='ifu_smartlink_click:';
-  
-  // Get a consistent identifier for an element based on its attributes
-  function getElementKey(el){
-    if(!el) return null;
+  const memoryPrefix='ifu_home_nav_ad_seen:';
+
+  function isHomeNavigationButton(el){
+    if(!el) return false;
+    if(el.closest('[data-sponsored-ad], .ad-direct, input, textarea, select, label')) return false;
+
     const href=el.getAttribute('href')||'';
-    const id=el.id||'';
-    const className=el.className||'';
-    const text=(el.textContent||el.getAttribute('aria-label')||'').trim().substring(0,50);
-    return memoryPrefix + [href,id,className,text].join('|').slice(0,150);
+    if(!href || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('javascript:')) return false;
+    if(/^https?:\/\//i.test(href) && !href.includes(location.hostname)) return false;
+
+    // Apply only to main website/home buttons, not refresh buttons or tiny controls.
+    return !!(
+      el.closest('.nav') ||
+      el.closest('.home-hero') ||
+      (el.classList.contains('btn') && el.closest('main, section'))
+    );
   }
-  
-  // Check if we should skip this element
-  function shouldSkipElement(el){
-    if(!el) return true;
-    // Skip if it's inside ads, inputs, forms, etc.
-    if(el.closest('[data-sponsored-ad], .ad-direct, input, textarea, select, label, nav')) return true;
+
+  function getKey(el){
     const href=el.getAttribute('href')||'';
-    // Skip mailto, tel, javascript, external links that shouldn't trigger ad
-    if(href.startsWith('mailto:')||href.startsWith('tel:')||href.startsWith('javascript:')) return true;
-    if(href && href.includes('github.com')) return true;
-    return false;
+    const text=(el.textContent||el.getAttribute('aria-label')||'button').trim().toLowerCase().replace(/\s+/g,' ');
+    return memoryPrefix + location.pathname + ':' + href + ':' + text;
   }
-  
-  // Listen for clicks on clickable elements
+
   document.addEventListener('click',function(e){
-    // Skip if default is prevented or not a left click
-    if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey) return;
-    
-    // Find the clickable element (link, button, etc.)
-    const el=e.target.closest('a,button,[role="button"],summary');
-    if(shouldSkipElement(el)) return;
-    
-    const key=getElementKey(el);
-    if(!key) return;
-    
-    // Check if this specific element was already clicked once
-    let clicked=false;
+    if(e.defaultPrevented || e.button!==0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const el=e.target.closest('a[href]');
+    if(!isHomeNavigationButton(el)) return;
+
+    const key=getKey(el);
+    let alreadySeenAd=false;
     try{
-      clicked=!!localStorage.getItem(key);
-      if(!clicked){
-        localStorage.setItem(key,'1');
-      }
+      alreadySeenAd=sessionStorage.getItem(key)==='1';
+      if(!alreadySeenAd) sessionStorage.setItem(key,'1');
     }catch(err){
-      // Fallback to data attribute if localStorage fails
-      clicked=!!el.dataset.smartlinkVisited;
-      if(!clicked){
-        el.dataset.smartlinkVisited='1';
-      }
+      alreadySeenAd=el.dataset.adSeen==='1';
+      if(!alreadySeenAd) el.dataset.adSeen='1';
     }
-    
-    // If first click, show the ad by redirecting
-    if(!clicked){
+
+    if(!alreadySeenAd){
       e.preventDefault();
       e.stopPropagation();
       window.location.href=smartlinkUrl;
     }
-    // If second+ click, let it proceed normally
   },true);
 })();

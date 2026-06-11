@@ -108,4 +108,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url><loc>https://mirzacreative.github.io/instantfootballupdates/feed.xml</loc></url>
+
+  <url>
+    <loc>https://mirzacreative.github.io/instantfootballupdates/faq.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
